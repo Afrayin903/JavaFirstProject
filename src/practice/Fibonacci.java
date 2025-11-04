@@ -3,6 +3,7 @@ package practice;
 
 public class Fibonacci {
     public static void main(String[] args) {
+        
        int n = 10; // Number of Fibonacci terms to generate
         long firstTerm = 0, secondTerm = 1;
 
