@@ -17,6 +17,7 @@ public class IteratingArray {
 
         for (int number: numbers) {
             System.out.print(" " + number);
+
         }
     }
 }
