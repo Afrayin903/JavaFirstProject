@@ -1,4 +1,4 @@
-package practice2;
+package practice4;
 
 public class Employee {
     private String name;
