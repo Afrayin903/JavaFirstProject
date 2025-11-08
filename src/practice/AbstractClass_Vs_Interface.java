@@ -1,5 +1,6 @@
 package practice;
 interface A{
+    //Interface can extends multiple interfaces
     //Can have static, abstract and default methods
     //Can not have constructor
     //Can have only static veritable (final by default)
@@ -15,6 +16,18 @@ interface A{
     public default void method3(){
         System.out.println("default method");
     }
+}
+interface C{
+   abstract void fly();
+   public static void sleep(){
+       System.out.println("Birds are sleeping");
+   }
+   default void eat(){
+       System.out.println("Birds eat wheat");
+   }
+}
+interface D extends A, C{
+
 }
 
 abstract class B extends AbstractClass_Vs_Interface{
@@ -43,6 +56,9 @@ abstract class B extends AbstractClass_Vs_Interface{
 public class AbstractClass_Vs_Interface {
 
     public static void main(String[] args) {
+        //Abstract class and interface cant be instantiated
+        //AbstractClass_Vs_Interface obj1 = new A();
+        //AbstractClass_Vs_Interface obj2 = new B();
 
     }
 }
