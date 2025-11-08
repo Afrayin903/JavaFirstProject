@@ -9,6 +9,10 @@ public class Rectangle extends Shape {
         this.length = length;
     }
 
+    public Rectangle() {
+
+    }
+
 
     public double area() {
         return width * length;

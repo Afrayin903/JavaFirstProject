@@ -1,7 +1,5 @@
 package practice3;
 
-import practice3.Shape;
-
 public class Square extends Shape {
     public double side;
 
