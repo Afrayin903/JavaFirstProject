@@ -2,6 +2,7 @@ package practice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 
 public class ListClass {
     public static void main(String[] args) {
@@ -55,7 +56,6 @@ public class ListClass {
         //retainAll method remove un-matching elements from the ArrayList
         list2.retainAll(Arrays.asList("Kahar", "Anker", "Afrayin"));
         System.out.println(list2);
-
 
 
 

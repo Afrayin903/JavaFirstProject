@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class ArraysIntro {
     public static void main(String[] args) {
         //Create a variable named numbers that can have 5 integers
+        //int [] numbers1 = new int[]{20, 40, 60, 80, 100}; ways to express array
         int [] numbers1 = new int[5];
         numbers1[0] = 20;
         numbers1[1] = 40;
