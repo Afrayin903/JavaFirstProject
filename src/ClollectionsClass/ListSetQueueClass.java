@@ -39,12 +39,16 @@ Stores Key-Value Pairs: Maps unique keys to values.
 No Guaranteed Order: Does not maintain insertion order or any other specific order.
 Allows one Null Key and multiple Null Values: Can have one null key and multiple null values.
 Uses Hashing: Relies on hashCode() and equals() of keys for efficient operations.
+LinkedHashMap
+Maintain the insertion order, allows one null key and multiple null values and not synchronized
 TreeMap
 Sorted Map: Implements the SortedMap interface.
 Stores Key-Value Pairs: Maps unique keys to values.
 Sorted Order: Keys are stored and retrieved in ascending natural order or according to a provided Comparator.
 Does not Allow Null Keys: Cannot store null keys (unless a custom Comparator explicitly handles it).
 Uses Red-Black Tree: Internally uses a self-balancing binary search tree.
+Hashtable
+Does not maintain inversion order, does not allow any null key and null values and synchronized.
 
 *Queue ->Duplicate elements are allowed, does not maintain insertion order and has no index often
 * following FIFO (First-In-First-Out) order (e.g., PriorityQueue)
